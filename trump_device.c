@@ -77,7 +77,7 @@ __exit trump_exit(void){
   class_unregister(trumpClass);
   class_destroy(trumpClass);
   unregister_chrdev(majorNumber, DEVICE_NAME);
-  printk(KERN_INFO "Trump device removed\n");
+  printk(KERN_INFO "Trump device removed, make america great again\n");
 }
 
 module_init(trump_init);
